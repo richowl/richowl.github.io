@@ -157,3 +157,11 @@ a:hover {
   background: royalblue;
   color: whitesmoke ;
 }
+
+.icon {
+  filter: invert(1);
+}
+
+.icon-wrapper:hover .icon {
+  filter: none;
+}

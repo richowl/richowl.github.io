@@ -68,12 +68,6 @@ img {
   max-width: 100%;
 }
 
-.icon {
-  border: none;
-  width: 16px;
-  height: 16px;
-}
-
 figure {
   box-sizing: border-box;
   display: inline-block;
@@ -329,4 +323,14 @@ table th{
 table td{
   padding: 6px 13px;
   border: 1px solid #dfe2e5;
+}
+
+.icon {
+  border: none;
+  width: 16px;
+  height: 16px;
+}
+
+.icon-wrapper:hover .icon {
+  filter: invert(1);
 }
