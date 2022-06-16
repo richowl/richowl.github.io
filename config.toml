@@ -1,13 +1,13 @@
 baseURL = 'https://richowl.github.io/'
 languageCode = 'ko-KR'
 title = 'My New Hugo Site'
-theme = 'archie'
+theme = 'archie2'
 copyright = "© RichOwl"
 pygmentsstyle = "monokai"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 [params]
-	mode="auto"
+	mode="toggle"
 	useCDN=false
 	subtitle = "Minimal and Clean [blog theme for Hugo](https://github.com/athul/archie)"
 
