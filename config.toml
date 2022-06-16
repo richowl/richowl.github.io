@@ -2,7 +2,7 @@ baseURL = 'https://richowl.github.io/'
 languageCode = 'ko-KR'
 title = 'My New Hugo Site'
 theme = 'archie'
-copyright = "© Athul"
+copyright = "© RichOwl"
 pygmentsstyle = "monokai"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
@@ -14,17 +14,8 @@ pygmentscodefencesguesssyntax = true
 [[params.social]]
 name = "GitHub"
 icon = "github"
-url = "https://github.com/athul/archie"
+url = "https://github.com/richowl/"
 
-[[params.social]]
-name = "Twitter"
-icon = "twitter"
-url = "https://github.com/athulcajay/"
-
-[[params.social]]
-name = "GitLab"
-icon = "gitlab"
-url = "https://gitlab.com/athul/"
 [[menu.main]]
 name = "Home"
 url = "/"
