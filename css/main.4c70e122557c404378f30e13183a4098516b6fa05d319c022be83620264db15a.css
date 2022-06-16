@@ -68,6 +68,12 @@ img {
   max-width: 100%;
 }
 
+.icon {
+  border: none;
+  width: 16px;
+  height: 16px;
+}
+
 figure {
   box-sizing: border-box;
   display: inline-block;
