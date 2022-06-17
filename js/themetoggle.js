@@ -3,11 +3,9 @@ function setTheme(mode) {
     if (mode === "dark") {
         document.getElementById("darkModeStyle").disabled=false;
         document.getElementById("dark-mode-toggle").innerHTML = "<img class=\"icon\" src=\"/ic_light_mode.svg\">";
-        feather.replace()
     } else if (mode === "light") {
         document.getElementById("darkModeStyle").disabled=true;
         document.getElementById("dark-mode-toggle").innerHTML = "<img class=\"icon\" src=\"/ic_dark_mode.svg\">";
-        feather.replace()
     }
 }
 
